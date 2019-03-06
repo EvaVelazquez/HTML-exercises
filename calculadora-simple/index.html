@@ -5,15 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Calculadora</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../app.css">
     <script src= "js/app.js" async defer ></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    
+      
 </head>
 <body>
+    <h1>Calculadora Simple</h1>
+    <h2>Instrucciones: </h2></p>
+    <h3>1-Ingresa los números a calcular, selecciona la operación y da click en "calcular"</h3></p>
+    <h3>2-Selecciona la operación que deseas calcular</h3></p>
+    <h3>3-Da click en "calcular"</h3></p>
     <input id="operadorA" type="text" >
     <select id="operacion"> 
         <option value="suma">+</option>
         <option value="resta">-</option>
+        <option value="multiplicacion">*</option>
+        <option value="division">/</option>
     </select>
     <input id="operadorB" type="text" >
     <button id="calcular">calcular</button>

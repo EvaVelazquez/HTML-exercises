@@ -1,0 +1,72 @@
+html, body{
+    height: 100vh;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+*::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;   
+}
+
+.logo-academy-tube{
+    width: 100px; 
+    display: inline-block;  
+}
+
+.form--search{
+    display: inline-block;
+}
+
+.form--search-inpu{
+    font-size: 20px;   
+}
+
+.logo {
+    display: nav-bar; 
+}
+.nav-bar {
+    background-color: white;
+    border-bottom: 2px grey solid;
+    padding: 8px 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+ }
+
+ .video-item--link{
+     text-decoration: none;
+ }
+
+ .video-item--link:visited{
+    color: inherit;
+}
+ 
+
+main {
+    font-family: 'Coiny', cursive;
+    margin-left: 76px;
+    margin-right: 40px;
+    padding: 10px 20px 20px;
+    position: relative;
+    height: 100%;
+}
+
+.video-item{
+    display: inline-block;
+    margin: 15px;
+    padding: 1px;
+    width: calc(25% - 50px);
+    box-sizing: border-box
+}
+
+.video-item--image:hover{
+    cursor: pointer;
+}
